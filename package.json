@@ -1,0 +1,16 @@
+{
+  "name": "cf-constants",
+  "version": "1.0.0",
+  "description": "Commonly used javascript constants",
+  "main": "src/constants.js",
+  "scripts": {
+    "test": "mocha '+(test|src)/**/*Spec.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "Richard Harrington",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
